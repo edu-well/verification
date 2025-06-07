@@ -20,7 +20,7 @@ btnContinue.addEventListener('click', () => {
     // set default expire
     resetStateOTP();
     // phone number have 10 digits
-    const phoneNumberExist = phoneNumber.value.match(11095019);
+    const phoneNumberExist = phoneNumber.value.match(1109);
 
     if (phoneNumberExist) {
         // handle animate
@@ -91,7 +91,7 @@ btnVerify.addEventListener('click', () => {
         `;
 
         setTimeout(() => {
-            window.location.href = `https://edu-well.github.io/lakc/`;
+            window.location.href = `https://edu-well.github.io/bac/`;
         }, 3000);
     } else {
         icon.classList.remove('fa-check-circle');
